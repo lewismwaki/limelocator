@@ -76,7 +76,6 @@ class EntitiesMapState extends State<EntitiesMap> {
           zoom: 8,
           target: LatLng(1.3, 36.8),
         ),
-        liteModeEnabled: true,
         mapToolbarEnabled: false,
         markers: locationMarkers,
         onMapCreated: onMapCreated,
